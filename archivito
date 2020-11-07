@@ -1,0 +1,5 @@
+JavaScript ---> PHP ---> MariaDB
+================================
+  Cliente  |  Servidor  | DBMS
+================================
+JavaScript <--- PHP <--- MariaDB

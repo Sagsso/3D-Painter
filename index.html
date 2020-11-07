@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3D Painter</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="libs/three.js-master/build/three.min.js"></script>
+    <script src="src/config.js"></script>
+    <script src="src/app.js"></script>
+    <script src="src/CollidableBox.js"></script>
+    <script src="libs/OrbitControls.js"></script>
+    <script src="libs/Pabhoz/Utilities.js"></script>
+    <script src="libs/Stats.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <canvas id="appCanvas" width="100%" height="100%"></canvas>
+    </div>
+
+    <div id="container">
+        <div id="brush" class="bar-btn" onclick="modeBrush()"></div>
+        <div id="delete" class="bar-btn" onclick="modeDelete()"></div>
+        <input type="color" value="#10ac84" id="color" class="bar-btn">
+    </div>
+    <div class="modeContainer">
+        <div class="mode">Brush Mode</div>
+    </div>
+
+    <script>
+        webGLStart();
+
+        // var items;
+
+        // //Vea, vamos a leer ese archivo
+        // fetch(`${API}Item.php`)
+        //     .then(function (response) {
+        //         //Lo que usted lea, transformelo a JSON
+        //         return response.json();
+        //     })
+        //     .then(function (myJson) { //Cuando ya lo tenga transformado
+        //         //imprima el JSON
+        //         items = myJson;
+        //     });
+    </script>
+</body>
+
+</html>
